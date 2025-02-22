@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: nightblue;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    color: blue;
+}
+img {
+    border-radius: 10px;
+}
+/* Navigation Bar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:blueviolet
+}
+
+/* Home Section */
+#home {
+    padding: 50px 0;
+}
+img {
+    border-radius: 0; /* Removes any rounded edges */
+    width: 200px;
+    height: 250px; /* Adjust height for a more rectangular shape */
+    border: 3px solid #333; /* Optional: Adds a border */
+}
